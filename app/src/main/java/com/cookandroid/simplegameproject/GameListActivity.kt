@@ -2,6 +2,7 @@ package com.cookandroid.simplegameproject
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.game_list.*
 
@@ -23,5 +24,15 @@ class GameListActivity : AppCompatActivity()  {
             btnRemember.setOnClickListener {
                 startActivity(Intent(this,Remember_Game_MainActivity::class.java))
         }
+    }
+    // ActionBar ItemSelected 이벤트
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

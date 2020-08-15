@@ -1,6 +1,7 @@
 package com.cookandroid.simplegameproject
 
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 
 class MyInformationActivity : AppCompatActivity() {
@@ -12,5 +13,15 @@ class MyInformationActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         // ActionBar Title 변경
         supportActionBar?.setTitle("내정보")
+    }
+    // ActionBar ItemSelected 이벤트
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
