@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.cookandroid.simplegameproject.RememberList.Remember_Game_MainActivity
 import kotlinx.android.synthetic.main.game_list.*
 
 class GameListActivity : AppCompatActivity()  {
@@ -22,7 +23,8 @@ class GameListActivity : AppCompatActivity()  {
         }
             // 기억하기 들어가기
             btnRemember.setOnClickListener {
-                startActivity(Intent(this,Remember_Game_MainActivity::class.java))
+                startActivity(Intent(this,
+                    Remember_Game_MainActivity::class.java))
         }
     }
     // ActionBar ItemSelected 이벤트

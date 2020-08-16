@@ -21,7 +21,14 @@
         <activity android:name=".ShareScoreActivity"></activity>
         <activity android:name=".RankingActivity"></activity>
         <activity android:name=".ReactGameMainActivity"></activity>
-        <activity android:name=".Remember_Game_MainActivity"></activity>
+        <activity android:name=".RememberList.Remember_Game_MainActivity"></activity>
+        <activity android:name=".RememberList.Remember_Game_Level1"></activity>
+        <activity android:name=".RememberList.Remember_Game_Level2"></activity>
+        <activity android:name=".RememberList.Remember_Game_Level3"></activity>
+        <activity android:name=".RememberList.Remember_Game_Level4"></activity>
+        <activity android:name=".RememberList.Remember_Game_Level5"></activity>
+        <activity android:name=".RememberList.Remember_Game_Finish"></activity>
+        <activity android:name=".RememberList.Remember_Game_End"></activity>
     </application>
 
 </manifest>
