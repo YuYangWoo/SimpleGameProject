@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cstLyLevel1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cstLyLevelTopic"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="1">
+
+        <TextView
+            android:id="@+id/textLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+            android:text="Level : 5   "
+            android:textColor="#FFFFFF"
+            android:textSize="26dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtLives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:text="Lives : 1"
+            android:textColor="#FFFFFF"
+            android:textSize="26dp"
+            app:layout_constraintStart_toEndOf="@+id/textLevel"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cstLyLevelTopic"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:columnCount="4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rowCount="4">
+
+            <Button
+                android:id="@+id/btn2-1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/blodBlue"></Button>
+
+            <Button
+                android:id="@+id/btn2-2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/blodBlue"></Button>
+
+            <Button
+                android:id="@+id/btn2-3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/blodBlue"></Button>
+
+            <Button
+                android:id="@+id/btn2-4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/blodBlue"></Button>
+
+            <Button
+                android:id="@+id/btn2-5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+
+            <Button
+                android:id="@+id/btn2-6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+
+            <Button
+                android:id="@+id/btn2-7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/blodBlue"></Button>
+
+            <Button
+                android:id="@+id/btn2-8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+
+            <Button
+                android:id="@+id/btn2-9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/blodBlue"></Button>
+            <Button
+                android:id="@+id/btn2-10"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+            <Button
+                android:id="@+id/btn2-11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+            <Button
+                android:id="@+id/btn2-12"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+            <Button
+                android:id="@+id/btn2-13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+            <Button
+                android:id="@+id/btn2-14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+            <Button
+                android:id="@+id/btn2-15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+            <Button
+                android:id="@+id/btn2-16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/blodBlue"></Button>
+
+
+        </androidx.gridlayout.widget.GridLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
