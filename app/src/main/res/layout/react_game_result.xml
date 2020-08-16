@@ -3,16 +3,29 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FF87CEEB">
 
     <TextView
-        android:id="@+id/record"
+        android:id="@+id/timelab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Best : "
+        android:gravity="center"
+        android:text="ms"
+        android:textColor="#FFFFFAF0"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to keep going"
+        android:textColor="#FFFFFAF0"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timelab" />
 </androidx.constraintlayout.widget.ConstraintLayout>

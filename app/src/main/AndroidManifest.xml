@@ -16,12 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameListActivity"></activity>
-        <activity android:name=".MyInformationActivity"></activity>
-        <activity android:name=".ShareScoreActivity"></activity>
-        <activity android:name=".RankingActivity"></activity>
-        <activity android:name=".ReactGameMainActivity"></activity>
-        <activity android:name=".Remember_Game_MainActivity"></activity>
+        <activity android:name=".GameListActivity" />
+        <activity android:name=".MyInformationActivity" />
+        <activity android:name=".ShareScoreActivity" />
+        <activity android:name=".RankingActivity" />
+        <activity android:name=".ReactGameMainActivity" />
+        <activity android:name=".ReactGameStartActivity" />
+        <activity android:name=".ReactGameAgainActivity" />
+        <activity android:name=".ReactGameClickActivity" />
+        <activity android:name=".ReactGameResultActivity"/>
+        <activity android:name=".Remember_Game_MainActivity" />
     </application>
 
 </manifest>
